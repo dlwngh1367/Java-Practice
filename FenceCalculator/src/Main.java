@@ -1,0 +1,63 @@
+
+// Scanner imported
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+			//Declarations 
+			final int EDIT_FENCE = 1;
+			final int PRINT_FENCE = 2;
+			final int EXIT_FENCE = 3;
+			double meters, costPerMeter;
+			int choice = 1;
+
+			//Created a object of Fence
+			Fence f1 = new Fence();
+
+			Scanner input = new Scanner(System.in);
+
+			// While loop to print menu 1~3.
+			while(choice != EXIT_FENCE) {
+				// menu options
+				System.out.println("Enter Option: ");
+				System.out.println("1 to edit Fence");
+				System.out.println("2 to show  cost of the Fence");
+				System.out.println("3 to exit program");
+				System.out.println("Program by Juho Lee");
+				
+				// integer value entered by user will be saved in choice variable.
+				choice = input.nextInt();
+
+				//Used if-else for different outputs
+				if(choice == EDIT_FENCE) {
+					System.out.print("Enter length of Fence in meters: ");
+					meters = input.nextDouble();
+					// set the value entered by user.
+					f1.setMeters(meters);
+					
+					System.out.print("Enter cost of fence per meter: ");
+					costPerMeter = input.nextDouble();
+					// set the value entered by user
+					f1.setCostPerMeter(costPerMeter);
+				}
+				else if (choice == PRINT_FENCE) {
+					//call printReport() method.
+				System.out.println(f1.printReport() + " is the  cost of the Fence in dollars");
+
+				}
+				else if(choice == EXIT_FENCE) {
+					//Program exit
+					System.out.println("Program exits");
+				}
+				else {
+					// When user enters invalid values for the menu
+					System.out.println("Invalid menu input");
+				}
+
+			} //while end
+
+	} //main end
+}
+

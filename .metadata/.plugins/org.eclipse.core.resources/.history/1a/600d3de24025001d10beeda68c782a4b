@@ -1,0 +1,9 @@
+
+public class DeluxBurger{
+
+	public DeluxBurger() {
+		DeluxBurger deluxBurger = new DeluxBurger();
+		
+	}
+
+}

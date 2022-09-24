@@ -1,0 +1,22 @@
+
+public class Wall {
+
+	public static void main(String[] args) {
+		
+		final double width;
+		final double height;		
+
+	}
+	
+	public Wall() {
+		
+	}
+	
+	public Wall(double width, double height) {
+		double this.width = 0;
+		double this. = 0;
+	}
+	
+	
+
+}

@@ -1,0 +1,63 @@
+// Scanner imported
+import java.util.Scanner;
+
+public class JuhoLeeLabExam2Section322 {
+
+	public static void main(String[] args) {
+
+			//Declarations 
+			final int EDIT_FENCE = 1;
+			final int PRINT_FENCE = 2;
+			final int EXIT_FENCE = 3;
+			double tonnes, costPerTonne;
+			int choice = 1;
+
+			//Created a object of CocoaBeans
+			Fence f1 = new Fence();
+
+			Scanner input = new Scanner(System.in);
+
+			// While loop to print menu until user inputs 3.
+			while(choice != EXIT_FENCE) {
+				// menu options
+				System.out.println("Enter Option: ");
+				System.out.println("1 to edit Fence");
+				System.out.println("2 to show  cost of the Fence");
+				System.out.println("3 to exit program");
+				System.out.println("Program by Juho Lee");
+				
+				// integer value entered by user will be saved in choice variable.
+				choice = input.nextInt();
+
+				//Used if-else for different outputs
+				if(choice == EDIT_FENCE) {
+					System.out.print("Enter Tonne(s) of CocoaBeans: ");
+					tonnes = input.nextDouble();
+					// set the value entered by user.
+					f1.setMeters(choice);
+					
+					System.out.print("Enter cost per tonne to purchase CocoaBeans: ");
+					costPerTonne = input.nextDouble();
+					// set the value entered by user
+					f1.setCostPerMeter(choice);
+				}
+				else if (choice == PRINT_FENCE) {
+					//Used String.format() method to print to 2 decimal places
+					String printCocoa = String.format("%.2f", f1.calculateCost());
+					System.out.println(printCocoa + " dollars to purchase CocoaBeans");
+
+				}
+				else if(choice == EXIT_FENCE) {
+					//Program exit
+					System.out.println("Program exits");
+				}
+				else {
+					// When user enters invalid values for the menu
+					System.out.println("Invalid menu input");
+				}
+
+			} //while end
+
+	} //main end
+}
+

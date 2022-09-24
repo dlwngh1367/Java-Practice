@@ -1,0 +1,9 @@
+
+public class DeluxBurger extends Hamburger{
+
+	public DeluxBurger() {
+		super(name, meat, price, breadRollType);
+		// TODO Auto-generated constructor stub
+	}
+
+}

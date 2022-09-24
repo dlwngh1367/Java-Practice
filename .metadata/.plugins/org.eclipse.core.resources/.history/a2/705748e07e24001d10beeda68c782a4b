@@ -1,0 +1,18 @@
+
+public class HealthyBurger extends Hamburger{
+	private String healthyExtra1Name;
+	private double healthyExtra1Price;
+	private String healthyExtra2Name;
+	private double healthyExtra2Price;
+	
+	public HealthyBurger(String name, String meat, double price, String breadRollType) {
+		super(name, meat, price, breadRollType);
+		
+	}
+
+	public double itemizeHamburger() {
+		return this.price; 
+		
+	}
+	
+}

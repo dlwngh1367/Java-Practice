@@ -1,0 +1,30 @@
+
+public class HealthyBurger extends Hamburger{
+	
+	private String healthyExtra1Name;
+	private double healthyExtra1Price;
+	private String healthyExtra2Name;
+	private double healthyExtra2Price;
+	
+	public HealthyBurger(String meat, double price) {
+		super("Health hamburger", meat, price, "Brown rye roll");
+		
+	}
+
+	public void addHealthyAddition1(String name, double price) {
+
+		setPrice(this.healthyExtra1Price + price);
+		System.out.println("Added " + name + " an extra " + price);
+	}
+	
+	public void addHealthyAddition2(String name, double price) {
+		double add2 = 0;
+		add2 =this.healthyExtra1Price + price;
+		System.out.println("Added " + name + " an extra " + price);
+	}
+	
+	public double itemizeHamburger() {
+		return getPrice(); 
+	}
+	
+}

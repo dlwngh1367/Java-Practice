@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;FinancialFreedom.TransactionMessage&apos; to &apos;Message&apos;&#x0D;&#x0A;- Original project: &apos;FinancialManagement&apos;&#x0D;&#x0A;- Original element: &apos;FinancialFreedom.TransactionMessage&apos;&#x0D;&#x0A;- Renamed element: &apos;FinancialFreedom.Message&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TransactionMessage&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/FinancialManagement\/src&lt;FinancialFreedom{TransactionMessage.java[TransactionMessage" matchStrategy="1" name="Message" qualified="false" references="true" similarDeclarations="false" stamp="1656782238883" textual="false" version="1.0"/>
+</session>

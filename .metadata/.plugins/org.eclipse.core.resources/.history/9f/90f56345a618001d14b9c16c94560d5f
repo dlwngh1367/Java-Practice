@@ -1,0 +1,6 @@
+
+public class Floor {
+
+	private final double width = 0;
+	private final double length = 0;
+}

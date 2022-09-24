@@ -1,0 +1,9 @@
+
+public class DeluxBurger extends Hamburger{
+
+	public DeluxBurger() {
+		
+		// TODO Auto-generated constructor stub
+	}
+
+}

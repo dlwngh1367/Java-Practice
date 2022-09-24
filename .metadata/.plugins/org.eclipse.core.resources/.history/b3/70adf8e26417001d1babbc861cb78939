@@ -1,0 +1,74 @@
+/*
+ * Author Name: Stanley Pieda
+ * Lab Professor: Professor Stanley Pieda
+ * Due Date: The due date
+ * Description: Starter Code for Lab Exam 2 (22S) Section 322
+ */
+
+/*
+ * This class abstracts a fence, with fields for the size of the fence in meters, and the costPerMeter of fence in dollars. There is a worker
+ * method to calculate the cost of the fence based on the number
+ * of meters, and the costPerMeter.
+ */
+public class Fence {
+	private double meters; // length of fence
+	private double costPerMeter; // cost per meter of fence
+	
+	/*
+	 * no-argument constructor, sets fields to zero
+	 */
+	public Fence() {
+		meters = 0.0;
+		costPerMeter = 0.0;
+	}
+
+	/*
+	 * accessor for meters
+	 */
+	public double getMeterss() {
+		return meters;
+	}
+
+	/*
+	 * mutator for meters
+	 */
+	public void setMeters(double meters) {
+		this.meters = meters;
+	}
+
+	/*
+	 * accessor for costPerMeter, in dollars
+	 */
+	public double getCostPerMeter() {
+		return costPerMeter;
+	}
+
+	/*
+	 * mutator for for costPerMeter, in dollars
+	 */
+	public void setCostPerMeter(double costPerMeter) {
+		this.costPerMeter = costPerMeter;
+	}
+	
+	/*
+	 * Worker method to calculate the cost of a Fence
+	 * based on the length of the fence in meters, and the costPerMeter
+	 * of the fence.
+	 */
+	public double calculateCost() {
+		double cost;
+		cost = meters * costPerMeter;
+		return cost;
+	}
+	
+	   public String printReport() {
+		      //Tuna Fish: Ounces = 100.0000, Protein per ounce = 0.4600, Total protein = 46.0000 grams
+		      
+		      double price = this.calculateCost();
+		      //String msg = "Tuna Fish: Ounces = " + ounces + ", Proteinperounce = " + proteinPerOunce + " Total Protein = " + totalProtein;
+		      return String.format("%.2f", price + " is the  cost of the Fence in dollars");
+		      //return msg;
+		   }
+
+}
+
