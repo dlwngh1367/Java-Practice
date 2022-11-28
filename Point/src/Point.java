@@ -48,19 +48,5 @@ public class Point {
 		return c;
 	}
 	
-	public double distance(double a, double b) {
-		this.distance()+
-		double w;
-		w=+Math.sqrt((b.y-a.y)*(b.y-a.y));
-		return w;
-	}
-
-
-
-
-
-
-
-
 
 }

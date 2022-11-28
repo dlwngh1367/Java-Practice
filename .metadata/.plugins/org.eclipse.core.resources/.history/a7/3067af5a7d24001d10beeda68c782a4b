@@ -1,9 +1,0 @@
-
-public class DeluxBurger{
-
-	public DeluxBurger() {
-		Hamburger deluxBurger = new Hamburger();
-		// TODO Auto-generated constructor stub
-	}
-
-}
