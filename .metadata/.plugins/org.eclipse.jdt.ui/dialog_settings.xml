@@ -109,7 +109,7 @@
 		<item key="fromStandard" value="true"/>
 		<item key="docletname" value=""/>
 		<item key="docletpath" value=""/>
-		<item key="access" value="public"/>
+		<item key="access" value="private"/>
 		<item key="use" value="true"/>
 		<item key="author" value="true"/>
 		<item key="version" value="true"/>
@@ -121,8 +121,8 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="false"/>
 		<item key="source" value="11"/>
-		<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab6\javadoc.xml"/>
-		<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab6\doc"/>
+		<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment3\javadoc.xml"/>
+		<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment3\doc"/>
 		<section name="projects">
 			<section name="Car">
 				<item key="href" value=""/>
@@ -153,11 +153,6 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Wall area\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Wall area\javadoc.xml"/>
-			</section>
-			<section name="DateCalculator">
-				<item key="href" value=""/>
-				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lee\doc"/>
-				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\DateCalculator\javadoc.xml"/>
 			</section>
 			<section name="Groceries">
 				<item key="href" value=""/>
@@ -204,11 +199,6 @@
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Inheritance\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Inheritance\javadoc.xml"/>
 			</section>
-			<section name="Lab6">
-				<item key="href" value=""/>
-				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab6\doc"/>
-				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab6\javadoc.xml"/>
-			</section>
 			<section name="EventCalculator">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab3\doc"/>
@@ -233,6 +223,11 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\PotatoChip\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\PotatoChip\javadoc.xml"/>
+			</section>
+			<section name="GraduationDateCalculator">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\GraduationDateCalculator\doc"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\GraduationDateCalculator\javadoc.xml"/>
 			</section>
 			<section name="Ice cream">
 				<item key="href" value=""/>
@@ -259,15 +254,15 @@
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\TunafishCalculator\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\TunafishCalculator\javadoc.xml"/>
 			</section>
-			<section name="Assignment 1">
-				<item key="href" value=""/>
-				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment 1\doc"/>
-				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment 1\javadoc.xml"/>
-			</section>
 			<section name="Polymorphism excercise">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Polymorphism excercise\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Polymorphism excercise\javadoc.xml"/>
+			</section>
+			<section name="dateCalculator">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lee\doc"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\dateCalculator\javadoc.xml"/>
 			</section>
 			<section name="ArrayList">
 				<item key="href" value=""/>
@@ -284,11 +279,6 @@
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Cylinder\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Cylinder\javadoc.xml"/>
 			</section>
-			<section name="Sort">
-				<item key="href" value=""/>
-				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab2\doc"/>
-				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Sort\javadoc.xml"/>
-			</section>
 			<section name="Dice">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116_Assignment_03_Juho_Lee\.git\Assignment 3\doc"/>
@@ -304,10 +294,10 @@
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Polymorphism\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Polymorphism\javadoc.xml"/>
 			</section>
-			<section name="Assignment2">
-				<item key="href" value="file:/C:/CST8116%20Homework/CST8116%20Eclipse%20Wrokspace/Assignment2/doc/"/>
+			<section name="Exceptions">
+				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment2\doc"/>
-				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment2\javadoc.xml"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Exceptions\javadoc.xml"/>
 			</section>
 			<section name="Sweater">
 				<item key="href" value=""/>
@@ -323,6 +313,16 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Sum Calculator\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Sum Calculator\javadoc.xml"/>
+			</section>
+			<section name="HealthData">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment 1\doc"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\HealthData\javadoc.xml"/>
+			</section>
+			<section name="Assignment3">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment3\doc"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment3\javadoc.xml"/>
 			</section>
 			<section name="Else if statement">
 				<item key="href" value=""/>
@@ -353,6 +353,11 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\dlwng\git\Practice\Cabbage_Calculator\doc"/>
 				<item key="antpath" value="C:\Users\dlwng\git\Practice\Cabbage_Calculator\javadoc.xml"/>
+			</section>
+			<section name="sort">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab2\doc"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\sort\javadoc.xml"/>
 			</section>
 			<section name="Reference vs Object vs Instance vs Class">
 				<item key="href" value=""/>
@@ -393,6 +398,11 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\AdvancedGUI\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\AdvancedGUI\javadoc.xml"/>
+			</section>
+			<section name="IncomeCalculator">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab6\doc"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\IncomeCalculator\javadoc.xml"/>
 			</section>
 		</section>
 	</section>
