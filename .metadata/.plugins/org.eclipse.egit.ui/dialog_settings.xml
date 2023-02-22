@@ -15,12 +15,14 @@
 		<item value="github.com"/>
 	</list>
 	<list key="CommitDialog.authorValues">
+		<item value="Juho Lee &lt;dlwngh1367@gmail.com&gt;"/>
 		<item value="Juho Lee &lt;lee00824@algonquinlive.com&gt;"/>
 		<item value="dlwngh1367 &lt;lee00824@algonquinlive.com&gt;"/>
 		<item value="dlwngh1367 &lt;dlwngh1367@github.com&gt;"/>
 		<item value="dlwngh1367 &lt;dlwngh1367@gmail.com&gt;"/>
 	</list>
 	<list key="CommitDialog.committerValues">
+		<item value="Juho Lee &lt;dlwngh1367@gmail.com&gt;"/>
 		<item value="Juho Lee &lt;lee00824@algonquinlive.com&gt;"/>
 		<item value="dlwngh1367 &lt;lee00824@algonquinlive.com&gt;"/>
 		<item value="dlwngh1367 &lt;dlwngh1367@github.com&gt;"/>

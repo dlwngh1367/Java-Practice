@@ -9,7 +9,6 @@ INDEX VERSION 1.131+C:\CST8116 Homework\CST8116 Eclipse Wrokspace\.metadata\.plu
 1639837487.index
 1641114467.index
 3978062002.index
-715257351.index
 2730549629.index
 3189169233.index
 576579067.index
