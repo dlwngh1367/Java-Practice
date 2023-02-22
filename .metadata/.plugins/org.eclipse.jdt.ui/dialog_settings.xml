@@ -121,8 +121,8 @@
 		<item key="nonavbar" value="false"/>
 		<item key="openinbrowser" value="false"/>
 		<item key="source" value="11"/>
-		<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment3\javadoc.xml"/>
-		<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment3\doc"/>
+		<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\MainActivity\javadoc.xml"/>
+		<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\MainActivity\doc"/>
 		<section name="projects">
 			<section name="Car">
 				<item key="href" value=""/>
@@ -199,6 +199,11 @@
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Inheritance\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Inheritance\javadoc.xml"/>
 			</section>
+			<section name="Strategy">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Strategy\doc"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Strategy\javadoc.xml"/>
+			</section>
 			<section name="EventCalculator">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab3\doc"/>
@@ -274,6 +279,11 @@
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Carpet Cost Calculator\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Carpet Cost Calculator\javadoc.xml"/>
 			</section>
+			<section name="CarBrandsList">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment3\doc"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\CarBrandsList\javadoc.xml"/>
+			</section>
 			<section name="Cylinder">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Cylinder\doc"/>
@@ -304,6 +314,11 @@
 				<item key="destdir" value="C:\Users\dlwng\git\Practice\Sweater\doc"/>
 				<item key="antpath" value="C:\Users\dlwng\git\Practice\Sweater\javadoc.xml"/>
 			</section>
+			<section name="Lab1">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab1\doc"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Lab1\javadoc.xml"/>
+			</section>
 			<section name="Encapsulation">
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\dlwng\git\Daily-Java-Challenge\Encapsulation\doc"/>
@@ -318,11 +333,6 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment 1\doc"/>
 				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\HealthData\javadoc.xml"/>
-			</section>
-			<section name="Assignment3">
-				<item key="href" value=""/>
-				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment3\doc"/>
-				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\Assignment3\javadoc.xml"/>
 			</section>
 			<section name="Else if statement">
 				<item key="href" value=""/>
@@ -363,6 +373,11 @@
 				<item key="href" value=""/>
 				<item key="destdir" value="C:\Users\dlwng\git\Daily-Java-Challenge\Reference vs Object vs Instance vs Class\doc"/>
 				<item key="antpath" value="C:\Users\dlwng\git\Daily-Java-Challenge\Reference vs Object vs Instance vs Class\javadoc.xml"/>
+			</section>
+			<section name="MainActivity">
+				<item key="href" value=""/>
+				<item key="destdir" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\MainActivity\doc"/>
+				<item key="antpath" value="C:\CST8116 Homework\CST8116 Eclipse Wrokspace\MainActivity\javadoc.xml"/>
 			</section>
 			<section name="Bill&apos;s burger">
 				<item key="href" value=""/>
